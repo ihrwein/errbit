@@ -8,6 +8,7 @@ errbit:
     - PORT=8080
     - RACK_ENV=production
     - MONGO_URL=mongodb://mongo:27017/errbit
+#    - DB_BS=1
 mongo:
   image: mongo:3.0
   ports:
