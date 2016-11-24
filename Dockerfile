@@ -27,4 +27,4 @@ bundle exec rake assets:precompile
 
 WORKDIR /app
 
-CMD ["bundle","exec","puma","-C","config/puma.default.rb"]
+CMD ./start.sh
